@@ -1,0 +1,23 @@
+# 🧑‍💻 Profile Card (Vanilla HTML, CSS, JS)
+
+This is a simple **Profile Card UI** built using plain **HTML, CSS, and JavaScript** (no frameworks).  
+It displays a user’s profile, including:
+
+- Avatar
+- Name & bio
+- Live updating time
+- Social links
+- Hobbies
+- Dislikes
+
+---
+
+## 🚀 How to Run Locally
+
+1. Download or clone the project
+2. Make sure all files are in the same folder
+3. Double-click `index.html`
+
+✅ That’s it — it will open in your browser
+
+---
