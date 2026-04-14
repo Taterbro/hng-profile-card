@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <article class="profile-card" data-testid="test-profile-card">
+      <div class="container">
+        <!-- Avatar -->
+        <figure class="avatar-wrapper">
+          <img
+            data-testid="test-user-avatar"
+            src="vik.jpg"
+            alt="Profile photo of Jane Doe, a software developer smiling warmly"
+            class="avatar"
+          />
+        </figure>
+
+        <!-- Content -->
+        <div class="content">
+          <header>
+            <h2 data-testid="test-user-name">Jane Doe</h2>
+          </header>
+
+          <p data-testid="test-user-bio" class="bio">
+            Full-stack developer who loves building accessible, performant web
+            applications. Passionate about open source and great coffee.
+          </p>
+
+          <div
+            data-testid="test-user-time"
+            id="time"
+            aria-live="polite"
+            aria-atomic="true"
+            class="time"
+          ></div>
+
+          <!-- Social Links -->
+          <nav aria-label="Social links">
+            <ul
+              data-testid="test-user-social-links"
+              class="social-links"
+              id="social-links"
+            ></ul>
+          </nav>
+
+          <!-- Hobbies -->
+          <section aria-label="Hobbies">
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies" class="tags" id="hobbies"></ul>
+          </section>
+
+          <!-- Dislikes -->
+          <section aria-label="Dislikes">
+            <h3>Dislikes</h3>
+            <ul
+              data-testid="test-user-dislikes"
+              class="tags dislikes"
+              id="dislikes"
+            ></ul>
+          </section>
+        </div>
+      </div>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+</html>
